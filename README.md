@@ -21,6 +21,28 @@ git@172.168.0.64:FlyaudioFOTAProject/OtaSdk.git
 
 FlyFotaApplicationInit.java Application的初始化类，调用sdk的时候需要调用attachBaseContext()方法
 
+ICheckUpdateListener.java 检查服务器升级包的回调接口
+
+IUpgradeListener.java 升级包升级过程的回调
+
+IDownloadListener.java 升级包下载过程中的回调接口
+
+IOtaAgent.java 检测，下载，升级的代理接口
+
+IOtaSdkHelper.java sdk初始信息接口
+
+FlyFotaSdkHelperImpl.java sdk初始信息的实现
+
+IOtaAgentImpel.java sdk检测，下载，升级的代理实现
+
+RetrofitFactory.java retrofit网络的封装
+
+# 6.项目进度
+
+完成到升级包的检测，下载和升级还未完成
+
+
+
 
 
 
