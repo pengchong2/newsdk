@@ -19,3 +19,11 @@ git@172.168.0.64:FlyaudioFOTAProject/OtaSdk.git
 
 # 5.类说明
 
+FlyFotaApplicationInit.java Application的初始化类，调用sdk的时候需要调用attachBaseContext()方法
+
+
+
+
+
+
+
