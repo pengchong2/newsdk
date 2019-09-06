@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">系统更新</string>
+    <string name="current_version">当前版本</string>
+    <string name="version_details">CHN-TXZ-2019_0303</string>
+    <string name="latest_edition">最新版本:</string>
+    <string name="download">下载</string>
+    <string name="cancel">取消</string>
+    <string name="download_error">下载出错，请重试</string>
+    <string name="timeout_pause">连接超时，请重试！</string>
+    <string name="already_pause">已暂停</string>
+    <string name="no_network">下载失败，网络不可用</string>
+    <string name="Current_version_is">当前版本: CHN-TXZ-2019_0303</string>
+    <string name="suspend">暂停</string>
+    <string name="updateTips">正在检测，请稍后...</string>
+    <!--当前版本-->
+    <string name="current_version_is">当前版本</string>
+
+    <!--暂停-->
+    <string name="pause">暂停</string>
+
+    <!--当前版本已是最新版本-->
+    <string name="The_current_version_is_the_latest">当前版本已是最新版本</string>
+    <!--检测更新包-->
+    <string name="detecting_update_packages">检测更新包</string>
+    <!--发现版本更新-->
+    <string name="discovery_version_updates">发现版本更新</string>
+    <!--升级条件限制，仅wifi下载-->
+    <string name="Upgrade_Conditions_Limit_Wifi_Download_Only">升级条件限制仅WIFI下载</string>
+    <!--连接中-->
+    <string name="connecting">连接中</string>
+    <!--确定-->
+    <string name="sure">确定</string>
+    <!--操作成功-->
+    <string name="successful_operation">操作成功</string>
+    <!--操作失败-->
+    <string name="operation_failed">操作失败</string>
+    <!--参数错误-->
+    <string name="Parameter_error">参数错误</string>
+    <!--异常-->
+    <string name="abnormal">异常</string>
+    <!--参数为空-->
+    <string name="the_parameter_is_empty">T参数为空</string>
+
+    <!--没有更新包-->
+    <string name="no_update_package">没有更新包</string>
+    <string name="add">添加 :</string>
+    <string name="tips_update">更新 :</string>
+    <string name="tips_opti">优化 :</string>
+    <string name="tips_solve">解决 :</string>
+    <string name="perse_data_error">数据解析失败！</string>
+    <string name="already_latest_version">已是最新版本！</string>
+    <string name="upgreade">升级</string>
+
+    <!--新增内容-->
+    <string name="new_content">新增内容</string>
+    <!--更新内容-->
+    <string name="update_content">更新内容</string>
+    <!--优化内容-->
+    <string name="optimize_content">优化内容</string>
+    <!--解决问题-->
+    <string name="solve_content">解决问题</string>
+
+    <!--无法获取版本详情信息-->
+    <string name="tv_unable_to_obtain_version_details">无法获取版本详情信息</string>
+    <!--系统不存在该秘钥-->
+    <string name="there_is_no_exits_key_in_system">服务系统不存在该车机秘钥！</string>
+    <!--不可下载-->
+    <string name="tv_not_downloadable">不可下载</string>
+    <!--内存不足，请清理后重新下载-->
+    <string name="insufficient_memory_please_clean_up_and_download_again">内存不足，请清理后重新下载!</string>
+    <!--升级条件限制仅Wifi下载-->
+    <string name="upgrade_conditions_limited_wifi_download_only">升级条件限制仅Wifi下载</string>
+    <!--是否使用移动流量进行下载-->
+    <string name="whether_to_download_using_mobile_traffic_or_not">非WIFI环境，下载更新包将消耗大量流量。是否继续下载?</string>
+    <!--无法获取版本详情信息-->
+    <string name="unable_to_obtain_version_details">无法获取版本详情</string>
+    <!--已经取消下载-->
+    <string name="the_download_has_been_cancelled">已经取消下载</string>
+    <!--厂商平台或者默认策略不存在-->
+    <string name="vendor_platform_or_default_policy_does_not_exist">厂商平台或者默认策略不存在</string>
+    <!--传入的新版本或者老版本没有找到相应的版本-->
+    <string name="the_incoming_new_version_or_old_version_did_not_find_the_corresponding_package">传入的新版本或者老版本没有找到相应的版本</string>
+    <!--系统中没有IMEI-->
+    <string name="there_is_no_IMEI_in_the_system">系统中没有IMEI</string>
+    <!--没有找到差分包-->
+    <string name="no_differential_packet_was_found">没有找到差分包</string>
+    <!--没有上传完整包-->
+    <string name="no_full_package_uploaded">没有上传完整包</string>
+    <!--检查版本信息失败-->
+    <string name="failed_to_check_version_information">检查版本信息失败</string>
+    <!--空响应-->
+    <string name="empty_response">空响应</string>
+    <!--没有最新的更新包-->
+    <string name="there_is_no_latest_update_package">没有最新的更新包</string>
+    <!--系统中没有上传改厂商的包-->
+    <string name="there_is_no_package_uploaded_from_the_manufacturer_in_the_system">系统中没有上传改厂商的包</string>
+    <!--无网络连接-->
+    <string name="no_network_connect">无网络连接</string>
+    <!--无网络连接-->
+    <string name="no_network_connection">无网络连接</string>
+    <!--车机可用存储空间不足-->
+    <string name="Insufficient_available_storage_space_for_locomotives">车机可用存储空间不足</string>
+    <string name="insufficient_storage_space_in_system">升级需要的存储空间不足，请清理后重试</string>
+    <string name="system_update_package_found_do_you_want_to_download_the_upgrade">发现系统更新包，是否前往下载升级？</string>
+    <string name="see">查看</string>
+    <string name="detected_new_version">系统已检测到新的版本更新！</string>
+    <string name="do_you_want_to_download_new_verison">是否前往下载新的版本？</string>
+    <string name="currently_only_mobile_traffic">当前仅限制移动流量进行下载</string>
+    <string name="limit_size_is_null">空间限制字段为空！</string>
+    <string name="no_imei">车机无IMEI</string>
+    <string name="no_key_or_iv">车机无key或iv,请联系售后处理</string>
+    <string name="downloading_update_file">正在下载升级包: </string>
+    <string name="download_update_file">下载升级包: </string>
+    <string name="error">\ 出错!\ </string>
+    <string name="retry">重试</string>
+    <string name="already_paused_download">已暂停下载系统升级包:\ </string>
+    <string name="already_finished_download">已完成下载系统升级包:\ </string>
+    <string name="update">升级</string>
+    <string name="go_on">前往</string>
+    <string name="do_you_want_to_update_now">是否现在进行系统升级？</string>
+    <string name="tv_continue">继续</string>
+
+
+</resources>

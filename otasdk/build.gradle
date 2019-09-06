@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    //重命名aar包
+    android.libraryVariants.all {variant->
+        variant.outputs.all {
+                def fileName = "OtaSdk_1.0.aar"
+                outputFileName = fileName
+            }
+
+        }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'org.greenrobot:greendao:3.2.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    implementation 'com.google.dagger:dagger:2.14.1'
+    annotationProcessor"com.google.dagger:dagger-compiler:2.14.1"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

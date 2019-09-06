@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_error">An Error Has Occurred On Server,Respond Code :</string>
+    <string name="download_error_and_cancel">An Error Has Occurred On Downloading , Please Try Again</string>
+    <string name="can_connect_to_server">Can\'t Link Network,Please Check Your Network !</string>
+    <string name="connect_occurred_error">An Error Has Occurred On Connecting , Please Try Again</string>
+    <string name="occur_socket_error">An Error Has Occurred On Downloading, Please Try Again</string>
+    <string name="occur_socket_timeout_error">An Timeout Error Has Occurred On Downloading, Please Try Again</string>
+    <string name="start_download">Start Download \.\.\.</string>
+    <string name="resume">Resume</string>
+    <string name="upgrade_package_file_does_not_exist">Upgrade package file does not exist! Please download the upgrade again</string>
+</resources>

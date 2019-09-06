@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="server_error">服务器异常,响应码:</string>
+    <string name="download_error_and_cancel">下载出错，手动取消任务</string>
+    <string name="can_connect_to_server">无法连接服务器，请检查网络连接!</string>
+    <string name="connect_occurred_error">连接出现异常，请重试！</string>
+    <string name="occur_socket_error">下载出现网络异常，请重试</string>
+    <string name="occur_socket_timeout_error">下载出现服务器响应超时，请重试</string>
+    <string name="start_download">开始下载升级包...</string>
+    <string name="resume">继续</string>
+    <string name="upgrade_package_file_does_not_exist">升级包文件不存在！请重新下载升级</string>
+</resources>
